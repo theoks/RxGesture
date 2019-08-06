@@ -18,9 +18,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#if os(OSX)
+@available(OSX 9999, *)
 import AppKit
-#endif
 import RxSwift
 import RxCocoa
 
