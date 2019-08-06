@@ -18,7 +18,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-@available(OSX 9999, *)
+#if os(OSX)
 import AppKit
 import RxSwift
 import RxCocoa
@@ -89,3 +89,4 @@ extension Reactive where Base: View {
     }
 
 }
+#endif
